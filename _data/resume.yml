@@ -84,32 +84,30 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
+  - title: "比赛经历:"
     list:
-    - 第一项
-    - 第二项
+    - 校内ACM竞赛三等奖
+    - 小程教育杯二等奖
+    text: "列表项二"
+  - title: "自我评价:"
+    list:
+    - 计算机专业基础扎实，熟悉常用开发语言与工具，学习能力强；
+    - 做事严谨，具备良好的逻辑思维与问题排查能力；
+    - 善于沟通协作，能快速适应团队开发与工作节奏；
+    - 对软件开发 / 计算机技术有热情，愿意持续学习与成长。
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
 #  - 单行文字
 #  - 如果有可以继续添加
 
-#footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
+#footer 脚注，打印版和web版不同不显示     
   print: #打印版markdown或者html
   screen:
   - text: "简历脚注"
   #   href: '/'
   - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+    href: "https://github.com/skalu/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
