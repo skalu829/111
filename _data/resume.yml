@@ -4,22 +4,22 @@
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "谢家奇"
-jobtitle: "求职意向" #可空不显示
+jobtitle: "全栈开发" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
+- text: "18958509033@163.com" #文本内容
   href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
-  href: 'tel:1234567890'
+- text: "19557688382"
+  href: 'tel:19557688382'
   icon: 'icons/phone.svg'
 - text: "your-website.com"
   href: 'http://your-website.com'
   icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
+- text: "skalu829"
+  href: 'https://github.com/skalu829'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
@@ -31,31 +31,26 @@ main: #简历主要内容，
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 温州大学
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+    duration: "2023年9月 - 2027年6月"
+    sub: 本科
+    detail: 计算机与人工智能学院
+  -
 
 - type: skills
   # name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - java
+    - python
+    - C++
 
 - type: experience
   name: 经验
   content:
   - title: 职位
     sub: 瑭天影视
-    duration: "xxxx年xx月 - yyyy年yy月"
+    duration: "2026年1月 - 2026年2月"
     tags:
     - 标签
     summary: AI短剧制作
@@ -73,11 +68,11 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
+  - title: 智能教学辅助系统
+    duration: 2026年3月 - 2026年4月
+    detail: 参与项目设计和测试工作
+    sub: 测试员
+  - title: 日常信息管理系统
     summary: Projects' introduction or summary
     detail:
       md: _data/demo.md
