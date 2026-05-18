@@ -30,7 +30,7 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
+  - title: 温州大学
     duration: "2011年x月 - 2015年"
     sub: 地点或学历
     detail: 专业或者简短说明
@@ -54,11 +54,11 @@ main: #简历主要内容，
   name: 经验
   content:
   - title: 职位
-    sub: 某某公司
+    sub: 瑭天影视
     duration: "xxxx年xx月 - yyyy年yy月"
     tags:
     - 标签
-    summary: 职务或者工作总结(自动折叠)
+    summary: AI短剧制作
     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
     #可以设置open默认展开
